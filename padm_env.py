@@ -169,7 +169,7 @@ class HanoiTower(gym.Env):
         size = (800, 400)
         screen = pygame.display.set_mode(size)
         clock = pygame.time.Clock()
-        hanoi_surface = pygame.image.load('.\Project\HanoiTower_v5.png') # type: ignore
+        hanoi_surface = pygame.image.load('.\HanoiTower_v5.png') # type: ignore
 
         disk_height = 25
         disk_width = 200    
